@@ -16,7 +16,7 @@ public:
     QVector<Zdarzenie> zdarzenia; //Zbiór zadań zdarzeń.
     QGraphicsScene scena; //Scena okna powitalnego.
     QGraphicsView widok; //Widok na scenę okna powitalnego.
-    QPixmap uksw; //Grafika - logo UKSW.
+    QPixmap pixmap; //Grafika - logo UKSW.
     QGraphicsPixmapItem item;
     void otworz();
     void oknoPowitalne();
