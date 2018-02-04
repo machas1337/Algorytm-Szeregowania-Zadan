@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/obrazki">
-        <file>ikona.png</file>
-        <file>uksw_logo.png</file>
-    </qresource>
-</RCC>
