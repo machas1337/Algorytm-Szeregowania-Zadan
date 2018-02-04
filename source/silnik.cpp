@@ -2,7 +2,7 @@
 
 Silnik::Silnik()
 {
-
+https://github.com/machas1337/Algorytm-Szeregowania-Zadan/tree/master/source
 }
 void Silnik::otworz(){
     glowne.show();
@@ -11,8 +11,6 @@ void Silnik::otworz(){
 void Silnik::oknoPowitalne(){
     widok.setScene(&scena);
     widok.setFixedSize(680,550);
-    uksw.load(":/obrazki/uksw_logo.png");
-    item.setPixmap(uksw);
     scena.addItem(&item);
     item.setToolTip("ZAMKNIJ OKNO ABY KONTYNUOWAĆ");
     scena.update();
